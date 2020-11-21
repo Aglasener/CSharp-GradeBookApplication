@@ -10,7 +10,7 @@ namespace GradeBook.GradeBooks
         
         public StandardGradeBook(string name) : base(name)
         {
-            Type = Enums.GradeBook.Standard;
+            Type = Enums.GradeBookType.Standard;
         }
     }
 }
